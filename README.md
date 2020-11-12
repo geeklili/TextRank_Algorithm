@@ -1,10 +1,11 @@
 # TextRank_Algorithm
 TextRank的简单实现
 1. 切分文章：把给定的文本使用标点或者空格切分成若干个句子；
-$$Text = [S<sub>1</sub>, S<sub>2</sub>, ... S<sub>n</sub>]$$
+
+Text = [S<sub>1</sub>, S<sub>2</sub>, ... S<sub>n</sub>]
 
 2. 保留关键词：对于每个句子，进行分词和词性标注处理，并过滤掉停用词，只保留指定词性的单词，如名词、动词、形容词，即，其中是保留后的候选关键词。
-$$S<sub>i</sub> = [W<sub>1</sub>, W<sub>2</sub>, ... W<sub>n</sub>]$$
+S<sub>i</sub> = [W<sub>1</sub>, W<sub>2</sub>, ... W<sub>n</sub>]
 
 3. 选择共现窗口大小n；
 
